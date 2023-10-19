@@ -1,9 +1,11 @@
 // Copy the file to "C:\Users\%USERNAME%\AppData\Local\Plex HTPC\inputmaps"
 {
+  // Name of the profile
   "name": "Xbox One",
   // The "Xbox One Controller" is connected via Bluetooth.
-  // For your devices use the "Device Manager" in Windows to figure out its "Display name".
+  // Use the "Device Manager" in Windows, search for the "Display name" and you've the "idmatcher".
   "idmatcher": "Xbox Wireless Controller",
+  // Button mappings start here
   "mapping": {
     // Directional pad (D-pad)
     "KEY_HAT_DOWN": "mpv:cycle-values sub-ass-override 'force' 'no'",
