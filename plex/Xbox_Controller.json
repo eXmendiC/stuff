@@ -1,0 +1,96 @@
+// Copy the file to "C:\Users\%USERNAME%\AppData\Local\Plex HTPC\inputmaps"
+{
+  "name": "Xbox One",
+  // The "Xbox One Controller" is connected via Bluetooth.
+  // For your devices use the "Device Manager" in Windows to figure out its "Display name".
+  "idmatcher": "Xbox Wireless Controller",
+  "mapping": {
+    // Directional pad (D-pad)
+    "KEY_HAT_DOWN": "mpv:cycle-values sub-ass-override 'force' 'no'",
+    "KEY_HAT_UP": "mpv:cycle deband",
+    "KEY_HAT_RIGHT": "mpv:add sub-delay +0.042",
+    "KEY_HAT_LEFT": "mpv:add sub-delay -0.042",
+
+    // A button
+    "KEY_BUTTON_0": {
+      "short": "back",
+      "long": "home"
+    },
+
+    // B button
+    "KEY_BUTTON_1": {
+      "short": "enter",
+      "long": "menu"
+    },
+
+    // X button
+    "KEY_BUTTON_2": "play_pause",
+
+    // Y button
+    "KEY_BUTTON_3": "search",
+
+    // Left bumper
+    "KEY_BUTTON_4": ["decrease_volume", "previous_pivot_tab"],
+
+    // Right bumper
+    "KEY_BUTTON_5": ["increase_volume", "next_pivot_tab"],
+
+    // View
+    "KEY_BUTTON_6": "info",
+
+    // Menu
+    "KEY_BUTTON_7": "menu",
+
+    // Left stick (press)
+    "KEY_BUTTON_8": "cycle_audio",
+
+    // Right stick (press)
+    "KEY_BUTTON_9": "cycle_subtitles",
+
+    // Unknown
+    "KEY_BUTTON_10": "",
+
+    // Menu button
+    "KEY_BUTTON_11": "menu",
+
+    // Unknown
+    "KEY_BUTTON_12": "",
+
+    // Left stick (press)
+    "KEY_BUTTON_13": "cycle_audio",
+
+    // Right stick (press)
+    "KEY_BUTTON_14": "cycle_subtitles",
+
+    // Xbox button
+    "KEY_BUTTON_15": {
+      "short": "home",
+      "long": "exit"
+    },
+
+    // View button
+    "KEY_BUTTON_16": "info",
+
+    // Left stick (horizontal axis)
+    "KEY_AXIS_0_UP": "left",
+    "KEY_AXIS_0_DOWN": "right",
+
+    // Left stick (vertical axis)
+    "KEY_AXIS_1_UP": "up",
+    "KEY_AXIS_1_DOWN": "down",
+
+    // Left trigger
+    "KEY_AXIS_2_DOWN": ["page_up", "step_backward"],
+
+    // Right stick (horizontal axis)
+    "KEY_AXIS_3_UP": "mpv:sub-scale +0.05",
+    "KEY_AXIS_3_DOWN": "mpv:sub-scale -0.05",
+
+    // Right stick (vertical axis)
+    "KEY_AXIS_4_UP": "mpv:sub-pos +1",
+    "KEY_AXIS_4_DOWN": "mpv:sub-pos -1",
+
+    // Right trigger
+	"KEY_AXIS_2_UP": ["page_down", "step_forward"],
+  }
+}
