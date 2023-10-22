@@ -2,9 +2,9 @@
 {
   // Name of the profile
   "name": "Xbox One",
-  // The "Xbox One Controller" is connected via Bluetooth
+  // The "Xbox One Controller" can be connected via Bluetooth or Dongle
   // Use the "Device Manager" in Windows, search for the "Display name" and you've the "idmatcher"
-  "idmatcher": "Xbox Wireless Controller",
+  "idmatcher": "Xbox * Wireless Controller",
   // Button mappings start here
   "mapping": {
     // Directional pad (D-pad)
